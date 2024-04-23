@@ -1,5 +1,6 @@
 import Banner from "./Banner";
 import Events from "./Events";
+import HostEvent from "./HostEvent";
 import Navbar from "./Navbar";
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
       <Navbar></Navbar>
       <Banner></Banner>
       <Events></Events>
+      <HostEvent></HostEvent>
     </div>
   );
 };
