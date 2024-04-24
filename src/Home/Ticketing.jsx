@@ -32,7 +32,7 @@ const Ticketing = () => {
             />
             <div className="w-14 rounded-lg h-2 bg-white absolute top-3"></div>
           </div>
-          <div className="bg-[#ED0A80] w-[200px] h-[250px] md:w-[350px] md:h-[350px] rounded-t-3xl flex justify-center items-center border-4 border-b-0 border-white relative">
+          <div className="bg-[#ED0A80] w-[200px] h-[250px] md:w-[350px] md:h-[450px] rounded-t-3xl flex justify-center items-center border-4 border-b-0 border-white relative">
             <img
               className="md:marker:h-[100px] w-3/5"
               src="https://i.ibb.co/DWpdvB7/image-9.png"
