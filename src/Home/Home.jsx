@@ -1,3 +1,4 @@
+import AutomatedQr from "./AutomatedQr";
 import Banner from "./Banner";
 import Events from "./Events";
 import HostEvent from "./HostEvent";
@@ -10,6 +11,7 @@ const Home = () => {
       <Banner></Banner>
       <Events></Events>
       <HostEvent></HostEvent>
+      <AutomatedQr></AutomatedQr>
     </div>
   );
 };

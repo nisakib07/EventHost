@@ -7,17 +7,17 @@ import Clock from "../assets/Group.png";
 const HostEvent = () => {
   return (
     <Wrapper>
-      <div className="mt-10 bg-gradient-to-br from-[#7B4AFF] to-[#8053FA] rounded-lg py-12 px-8 flex items-center gap-10 relative">
+      <div className="mt-10 bg-gradient-to-br from-[#7B4AFF] to-[#8053FA] rounded-lg py-12 px-8 flex items-center flex-col justify-center md:flex-row gap-10 relative">
         <img
-          className="w-2/5 border-2 border-dashed p-2"
+          className="w-3/5 md:w-2/5 border-2 border-dashed p-2"
           src={hostImg}
           alt=""
         />
-        <div className="text-white w-[700px]">
-          <h1 className="text-4xl mb-3">
+        <div className="text-white md:w-[700px]">
+          <h1 className="text-2xl md:text-4xl mb-3">
             Host Your Event Easily & Automatedly With Us
           </h1>
-          <p className="text-xl">
+          <p className="text-md md:text-xl">
             We Provide The Best Event Ticketing & Management Solutions
           </p>
           <div className="mt-4">
@@ -48,8 +48,8 @@ const HostEvent = () => {
           </div>
         </div>
 
-        <div className="absolute bottom-0 right-0">
-          <img src={Clock} alt="" />
+        <div className="absolute w-1/5 bottom-[0] right-[0]">
+          <img className="" src={Clock} alt="" />
         </div>
       </div>
     </Wrapper>
