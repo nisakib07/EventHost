@@ -14,8 +14,8 @@ const EventCard = ({ img }) => {
         <div className="absolute top-[12%] right-8">
           <ButtonTemp text={"Favorite"} img={love}></ButtonTemp>
         </div>
-        <div className="w-8 h-8 bg-white rounded-full absolute top-[43%] md:top-[55%] left-[-4%]"></div>
-        <div className="w-8 h-8 bg-white rounded-full absolute top-[43%] md:top-[55%] right-[-4%]"></div>
+        <div className="w-8 h-8 bg-white rounded-full absolute top-[36%] md:top-[55%] left-[-4%]"></div>
+        <div className="w-8 h-8 bg-white rounded-full absolute top-[36%] md:top-[55%] right-[-4%]"></div>
       </div>
       <div className="flex justify-between my-4">
         <div>
