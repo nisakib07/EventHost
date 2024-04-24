@@ -5,7 +5,7 @@ import ticket from "../assets/Vector.png";
 
 const EventCard = ({ img }) => {
   return (
-    <div className="bg-[#F1F3FF] p-6 rounded-lg relative">
+    <div className="bg-[#F1F3FF] p-6 mx-6 md:mx-0 rounded-lg relative">
       <div className="border-b-2 border-dashed pb-4 border-[#591BFF]">
         <img className="w-full h-full object-cover" src={img} alt="" />
         <div className="absolute top-[12%] left-8">
@@ -14,8 +14,8 @@ const EventCard = ({ img }) => {
         <div className="absolute top-[12%] right-8">
           <ButtonTemp text={"Favorite"} img={love}></ButtonTemp>
         </div>
-        <div className="w-10 h-10 bg-white rounded-full absolute top-[54%] left-[-4%]"></div>
-        <div className="w-10 h-10 bg-white rounded-full absolute top-[54%] right-[-4%]"></div>
+        <div className="w-10 h-10 bg-white rounded-full absolute top-[47%] md:top-[54%] left-[-4%]"></div>
+        <div className="w-10 h-10 bg-white rounded-full absolute top-[47%] md:top-[54%] right-[-4%]"></div>
       </div>
       <div className="flex justify-between my-4">
         <div>

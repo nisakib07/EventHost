@@ -7,7 +7,7 @@ import EventCard from "./EventCard";
 const Events = () => {
   return (
     <Wrapper>
-      <div className="mt-10 text-3xl text-center font-semibold">
+      <div className="mt-10 text-3xl lg:text-5xl text-center font-semibold">
         <h1>Events</h1>
       </div>
       <div className="flex justify-center my-8 gap-8 items-center flex-wrap">
